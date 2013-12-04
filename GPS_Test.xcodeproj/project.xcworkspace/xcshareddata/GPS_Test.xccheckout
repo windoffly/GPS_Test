@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99519577-C90B-40DF-B938-3A346AA82C09</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GPS_Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF158E30-4F3C-44BC-B199-E074533DCFF1</key>
+		<string>https://github.com/windoffly/GPS_Test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GPS_Test.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF158E30-4F3C-44BC-B199-E074533DCFF1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/windoffly/GPS_Test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF158E30-4F3C-44BC-B199-E074533DCFF1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF158E30-4F3C-44BC-B199-E074533DCFF1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GPS_Test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
