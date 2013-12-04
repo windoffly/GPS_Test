@@ -21,6 +21,8 @@
 		49EC12DC18470CED00631BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC12BE18470CED00631BB2 /* UIKit.framework */; };
 		49EC12E418470CED00631BB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49EC12E218470CED00631BB2 /* InfoPlist.strings */; };
 		49EC12E618470CED00631BB2 /* GPS_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC12E518470CED00631BB2 /* GPS_TestTests.m */; };
+		49EC12F018470E5200631BB2 /* Location_test.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 49EC12EF18470E5200631BB2 /* Location_test.gpx */; };
+		49EC12F21847107200631BB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC12F11847107200631BB2 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		49EC12E118470CED00631BB2 /* GPS_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPS_TestTests-Info.plist"; sourceTree = "<group>"; };
 		49EC12E318470CED00631BB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49EC12E518470CED00631BB2 /* GPS_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPS_TestTests.m; sourceTree = "<group>"; };
+		49EC12EF18470E5200631BB2 /* Location_test.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location_test.gpx; sourceTree = "<group>"; };
+		49EC12F11847107200631BB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EC12F21847107200631BB2 /* CoreLocation.framework in Frameworks */,
 				49EC12BD18470CEC00631BB2 /* CoreGraphics.framework in Frameworks */,
 				49EC12BF18470CED00631BB2 /* UIKit.framework in Frameworks */,
 				49EC12BB18470CEC00631BB2 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		49EC12AE18470CEC00631BB2 = {
 			isa = PBXGroup;
 			children = (
+				49EC12EF18470E5200631BB2 /* Location_test.gpx */,
 				49EC12C018470CED00631BB2 /* GPS_Test */,
 				49EC12DF18470CED00631BB2 /* GPS_TestTests */,
 				49EC12B918470CEC00631BB2 /* Frameworks */,
@@ -101,6 +107,7 @@
 		49EC12B918470CEC00631BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49EC12F11847107200631BB2 /* CoreLocation.framework */,
 				49EC12BA18470CEC00631BB2 /* Foundation.framework */,
 				49EC12BC18470CEC00631BB2 /* CoreGraphics.framework */,
 				49EC12BE18470CED00631BB2 /* UIKit.framework */,
@@ -230,6 +237,7 @@
 			files = (
 				49EC12D318470CED00631BB2 /* Images.xcassets in Resources */,
 				49EC12C518470CED00631BB2 /* InfoPlist.strings in Resources */,
+				49EC12F018470E5200631BB2 /* Location_test.gpx in Resources */,
 				49EC12CE18470CED00631BB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
